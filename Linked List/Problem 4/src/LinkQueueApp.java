@@ -6,7 +6,7 @@ class LinkQueueApp {
       theQueue.insert(20); // insert items
       theQueue.insert(40);
       theQueue.displayQueue();
-      long removed = theQueue.delayedRemove(); // display queue
+      long removed = theQueue.delayedRemove(3); // display queue
 
       theQueue.insert(60); // insert items
       theQueue.insert(80);

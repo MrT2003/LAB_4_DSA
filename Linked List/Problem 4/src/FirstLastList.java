@@ -36,10 +36,6 @@ class FirstLastList {
         return temp;
     }
 
-    public deleteRandom() {
-        
-    }
-
     // -------------------------------------------------------------
     public void displayList() {
         Link current = first; // start at beginning

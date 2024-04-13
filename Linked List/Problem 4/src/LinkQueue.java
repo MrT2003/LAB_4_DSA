@@ -34,7 +34,7 @@ class LinkQueue {
     }
 
     public long delayedRemove(int n) {
-        removeCount++;
+        removeCount++; 
         if (removeCount == n) {
             removeCount = 0; // reset counter after removal
             return theList.deleteFirst();
